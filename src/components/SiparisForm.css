@@ -1,0 +1,95 @@
+.siparissayfasi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.headerPizza{
+    font-family: "Barlow";
+    font-weight: 600;
+    text-align: left;
+    width: 30vw;
+}
+
+.fiyatYorum{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.fiyat{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Barlow";
+}
+
+.puanlama{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    font-family: "Barlow";
+    color: #5F5F5F;
+}
+
+.pizzaAciklama{
+    color: #5F5F5F;
+    font-family: "Barlow";
+    width: 30vw;
+}
+
+.hamur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    margin: 2rem auto;
+    font-family: "Barlow";
+    color: #5F5F5F;
+    font-weight: 500;
+}
+
+.hamurBoyut{
+    font-family: "Barlow";
+    font-weight: 600;
+    color: black;
+}
+
+.ekMalzeme{
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+.maxMalzeme{
+    font-family: "Barlow";
+    font-weight: 500;
+    color: #5F5F5F;
+}
+
+.malzemeler{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin: 3rem auto;
+}
+
+.malzeme{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Barlow";
+    font-weight: 630;
+    font-size: 14px;
+    width: 135px;
+    color: #5F5F5F;;
+}
+
+.siparisNot{
+    font-family: "Barlow";
+    font-weight: 600;
+}

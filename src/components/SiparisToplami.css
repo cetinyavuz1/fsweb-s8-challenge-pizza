@@ -1,0 +1,74 @@
+.siparisToplam {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+    
+}
+
+.adetButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.butonlar{
+    width: 50px;
+    height: 50px;
+}
+
+.pizzaAdet{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    font-family: "Barlow";
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.toplamTutar{
+    border: 1px solid lightgray;
+    padding: 2.5rem;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.toplamHeader{
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.secimler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Barlow";
+    color: #5F5F5F;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.toplampara{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #CE2829;
+    font-family: "Barlow";
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.tutarButon{
+    width: 20vw;
+    height: 7vh;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 20px;
+}
