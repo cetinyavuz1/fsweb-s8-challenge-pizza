@@ -1,0 +1,93 @@
+.siparisAlindi{
+    background-color: #CE2829;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siparisAlindiLogo{
+    width: 20vw;
+    height: 10vh;
+    margin: 2.5rem 0;
+}
+
+.lezzet{
+font-family: Satisfy;
+color: #FDC913;
+font-size: 2rem;
+}
+
+.siparisText{
+    font-family: "Barlow";
+    color: white;
+    font-weight: 400;
+    width: 30vw;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+
+.pizzaText{
+    color: white;
+    font-family: "Barlow";
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.pizzaOzellik{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin-bottom: 2rem;
+}
+
+.ozellik{
+    width: 150px;
+    font-family: "Barlow";
+    font-weight: 550;
+}
+
+.ozellikText{
+    font-weight: 150;
+}
+
+.toplamTutar2{
+    border: 1px solid lightgray;
+    padding: 2.5rem;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+
+.toplamHeader2{
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+}
+
+.secimler2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Barlow";
+    color: white;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.toplampara2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: "Barlow";
+    font-weight: 550;
+    font-size: 18px;
+}

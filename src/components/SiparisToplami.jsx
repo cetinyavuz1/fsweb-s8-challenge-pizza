@@ -1,10 +1,10 @@
 import React from "react"
 import { Button } from "reactstrap"
-import { useState } from "react"
 import "./SiparisToplami.css"
 
-export default function SiparisToplami({ malzemeSayisi }) {
-    const [pizzaAdet, setPizzaAdet] = useState(1)
+
+export default function SiparisToplami({ malzemeSayisi, secimler, fiyat, pizzaAdet, setPizzaAdet }) {
+    
 
     const arttir = (event) => {
         event.preventDefault()
@@ -17,9 +17,7 @@ export default function SiparisToplami({ malzemeSayisi }) {
         }
     }
 
-    const adetFiyat = 85.50
-    const secimler = malzemeSayisi.length * 5
-    const fiyat = (secimler + adetFiyat) * pizzaAdet
+    
 
 
     return (
@@ -41,7 +39,9 @@ export default function SiparisToplami({ malzemeSayisi }) {
                         <p>{fiyat}₺</p>
                     </div>
                 </div>
-                <Button className="tutarButon" color="warning">SİPARİŞ VER</Button>
+                
+                <Button type="submit" className="tutarButon" color="warning"><span className="siparisYazi">SİPARİŞ VER</span></Button>
+                
             </div>
         </div>
     )

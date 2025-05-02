@@ -1,13 +1,14 @@
 import React from "react"
 import { Form, FormGroup, Input, Label } from "reactstrap"
 import "./SiparisForm.css"
+import SiparisToplami from "./SiparisToplami"
 
 
 const malzemeler = ["Pepperoni", "Sosis", "Kanada Jambonu", "Tavuk Izgara",
     "Soğan", "Domates", "Mısır", "Sucuk", "Jalepeno",
     "Sarımsak", "Biber", "Salam", "Ananas", "Kabak"]
 
-export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
+export default function SiparisForm({ handleSubmit, malzemeSayisi, setMalzemeSayisi, hamur, setHamur, boyut, setBoyut, secimler, fiyat, pizzaAdet, setPizzaAdet }) {
 
 
     const handleChange = (event) => {
@@ -18,6 +19,16 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
         } else if (!checked) {
             setMalzemeSayisi(malzemeSayisi.filter((elm) => elm !== value));
         }
+    }
+
+    const handleChangeiki = (event) => {
+        const { value } = event.target
+        setBoyut(value)
+    }
+
+    const handleChangeuc = (event) => {
+        const { value } = event.target
+        setHamur(value)
     }
 
     return (
@@ -37,7 +48,7 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                     Pizza, domates, peynir ve genellikle çeşitli diğer malzemelerle kaplanmış, daha sonra geleneksel olarak
                     odun ateşinde bir fırında yüksek sıcaklıkta pişirilen, genellikle yuvarlak, düzleştirilmiş mayalı buğday bazlı
                     hamurdan oluşan İtalyan kökenli lezzetli bir yemektir. Küçük bir pizzaya bazen pizzetta denir.</p>
-                <Form>
+                <Form onSubmit={handleSubmit}>
                     <div className="hamur">
                         <FormGroup tag="fieldset">
                             <legend>
@@ -50,6 +61,9 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                                     <Input
                                         name="radio1"
                                         type="radio"
+                                        value="Küçük"
+                                        checked={boyut === "Küçük"}
+                                        onChange={handleChangeiki}
                                     />
                                     Küçük
                                 </Label>
@@ -62,6 +76,9 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                                     <Input
                                         name="radio1"
                                         type="radio"
+                                        value="Orta"
+                                        checked={boyut === "Orta"}
+                                        onChange={handleChangeiki}
                                     />
                                     Orta
                                 </Label>
@@ -74,6 +91,9 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                                     <Input
                                         name="radio1"
                                         type="radio"
+                                        value="Büyük"
+                                        checked={boyut === "Büyük"}
+                                        onChange={handleChangeiki}
                                     />
                                     Büyük
                                 </Label>
@@ -87,14 +107,18 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                                 id="exampleSelect"
                                 name="select"
                                 type="select"
+                                onChange={handleChangeuc}
                             >
-                                <option>
+                                <option value="" disabled hidden>
+                                    Hamur Seçiniz
+                                </option>
+                                <option value="İnce">
                                     İnce
                                 </option>
-                                <option>
+                                <option value="Orta">
                                     Orta
                                 </option>
-                                <option>
+                                <option value="Kalın">
                                     Kalın
                                 </option>
                             </Input>
@@ -105,7 +129,7 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                     <div className="malzemeler">
                         {malzemeler.map((elm) => {
                             return (
-                                <FormGroup>
+                                <FormGroup key={elm}>
                                     <Label check className="malzeme">
                                         <Input
                                             value={elm}
@@ -119,7 +143,7 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                             )
                         })}
                     </div>
-                    <FormGroup>
+                    <FormGroup className="siparisNotu">
                         <Label for="exampleText">
                             <h5 className="siparisNot">Sipariş Notu</h5>
                         </Label>
@@ -130,8 +154,9 @@ export default function SiparisForm({ malzemeSayisi, setMalzemeSayisi }) {
                             placeholder="Siparişine eklemek istediğin bir not var mı?"
                         />
                     </FormGroup>
-
+                    <SiparisToplami secimler={secimler} fiyat={fiyat} pizzaAdet={pizzaAdet} setPizzaAdet={setPizzaAdet} malzemeSayisi={malzemeSayisi} />
                 </Form>
+
             </div>
         </>
 

@@ -93,3 +93,8 @@
     font-family: "Barlow";
     font-weight: 600;
 }
+
+.siparisNotu{
+    padding-bottom: 40px;
+    border-bottom: 2px solid lightgray;
+}
