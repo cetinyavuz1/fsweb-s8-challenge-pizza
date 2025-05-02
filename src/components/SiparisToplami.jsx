@@ -3,7 +3,7 @@ import { Button } from "reactstrap"
 import "./SiparisToplami.css"
 
 
-export default function SiparisToplami({ malzemeSayisi, secimler, fiyat, pizzaAdet, setPizzaAdet }) {
+export default function SiparisToplami({ malzemeSayisi, secimler, fiyat, pizzaAdet, setPizzaAdet, hamur, boyut}) {
     
 
     const arttir = (event) => {
@@ -40,7 +40,7 @@ export default function SiparisToplami({ malzemeSayisi, secimler, fiyat, pizzaAd
                     </div>
                 </div>
                 
-                <Button type="submit" className="tutarButon" color="warning"><span className="siparisYazi">SİPARİŞ VER</span></Button>
+                <Button disabled = {malzemeSayisi.length < 4 || boyut === "" || hamur === "" ? true : false} type="submit" className="tutarButon" color="warning"><span className="siparisYazi">SİPARİŞ VER</span></Button>
                 
             </div>
         </div>

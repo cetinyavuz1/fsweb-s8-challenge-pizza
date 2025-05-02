@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 23px;
     margin-bottom: 5rem;
+    margin-top: 2.5rem;
 }
 
 .adetButtons {
@@ -32,6 +33,7 @@
 
 .toplamTutar{
     border: 1px solid lightgray;
+    border-radius: 5px;
     padding: 2.5rem;
     width: 20vw;
     display: flex;

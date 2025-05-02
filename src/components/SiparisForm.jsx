@@ -108,6 +108,7 @@ export default function SiparisForm({ handleSubmit, malzemeSayisi, setMalzemeSay
                                 name="select"
                                 type="select"
                                 onChange={handleChangeuc}
+                                defaultValue=""
                             >
                                 <option value="" disabled hidden>
                                     Hamur Seçiniz
@@ -126,6 +127,7 @@ export default function SiparisForm({ handleSubmit, malzemeSayisi, setMalzemeSay
                     </div>
                     <h5 className="ekMalzeme">Ek Malzemeler</h5>
                     <p className="maxMalzeme">En fazla 10 malzeme seçebilirsiniz. 5₺</p>
+                    <p className="minMalzeme" >En az 4 malzeme seçmelisiniz!!</p>
                     <div className="malzemeler">
                         {malzemeler.map((elm) => {
                             return (
@@ -154,7 +156,7 @@ export default function SiparisForm({ handleSubmit, malzemeSayisi, setMalzemeSay
                             placeholder="Siparişine eklemek istediğin bir not var mı?"
                         />
                     </FormGroup>
-                    <SiparisToplami secimler={secimler} fiyat={fiyat} pizzaAdet={pizzaAdet} setPizzaAdet={setPizzaAdet} malzemeSayisi={malzemeSayisi} />
+                    <SiparisToplami boyut={boyut} hamur={hamur} secimler={secimler} fiyat={fiyat} pizzaAdet={pizzaAdet} setPizzaAdet={setPizzaAdet} malzemeSayisi={malzemeSayisi} />
                 </Form>
 
             </div>

@@ -18,11 +18,11 @@ font-size: 2rem;
 }
 
 .siparisText{
-    font-family: "Barlow";
+    font-family: "Roboto Condensed";
     color: white;
-    font-weight: 400;
+    font-weight: 300;
     width: 30vw;
-    font-size: 50px;
+    font-size: 65px;
     text-align: center;
     border-bottom: 1px solid white;
     padding-bottom: 2rem;
@@ -57,12 +57,13 @@ font-size: 2rem;
 
 .toplamTutar2{
     border: 1px solid lightgray;
+    border-radius: 5px;
     padding: 2.5rem;
     width: 20vw;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .toplamHeader2{

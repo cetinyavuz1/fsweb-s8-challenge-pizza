@@ -68,6 +68,13 @@
     font-family: "Barlow";
     font-weight: 500;
     color: #5F5F5F;
+    margin-bottom: 0;
+}
+
+.minMalzeme{
+    font-family: "Barlow";
+    font-weight: 500;
+    color: #5F5F5F;
 }
 
 .malzemeler{
