@@ -117,3 +117,45 @@
     padding-bottom: 40px;
     border-bottom: 2px solid lightgray;
 }
+
+@media (max-width: 768px) {
+
+    .headerPizza{
+        width: 70vw;
+        text-align: center;
+    }
+
+    .fiyatYorum{
+        width: 70vw;
+    }
+
+    .pizzaAciklama{
+        width: 70vw;
+        text-align: left;
+    }
+
+    .hamur{
+        margin: 0;
+        margin-bottom: 2rem;
+        width: 70vw;
+    }
+    
+    .ekMalzeme, .maxMalzeme, .minMalzeme{
+        width: 70vw;
+        text-align: left;
+    }
+
+    .malzeme{
+        width: 35vw;
+    }
+
+    .malzemeler{
+        width: 70vw;
+        margin-top: 1.5rem
+    }
+
+    .siparisNotu{
+        width: 70vw;
+    }
+
+}

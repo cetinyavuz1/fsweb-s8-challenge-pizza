@@ -4,7 +4,7 @@ import "./SiparisForm.css"
 import SiparisToplami from "./SiparisToplami"
 
 
-const malzemeler = ["Pepperoni", "Sosis", "Kanada Jambonu", "Tavuk Izgara",
+const malzemeler = ["Pepperoni", "Sosis", "Jambon", "Tavuk Izgara",
     "Soğan", "Domates", "Mısır", "Sucuk", "Jalepeno",
     "Sarımsak", "Biber", "Salam", "Ananas", "Kabak"]
 
