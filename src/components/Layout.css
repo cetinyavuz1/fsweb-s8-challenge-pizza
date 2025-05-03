@@ -144,6 +144,7 @@
     margin-top: 70px;
     font-size: 20px;
     font-family: "Barlow";
+    height: 15rem;
   }
   
   .third-card{
@@ -153,10 +154,11 @@
     background-repeat: no-repeat;
     border-radius: 20px;
     padding: 5px 100px 50px 30px; 
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 70px;
     font-size: 20px;
     font-family: "Barlow";
+    height: 15rem;
   }
   
   .paketlenen {
