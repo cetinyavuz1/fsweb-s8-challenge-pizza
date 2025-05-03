@@ -42,6 +42,13 @@
     width: 30vw;
 }
 
+.siparisFormu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+
 .hamur{
     display: flex;
     flex-direction: row;
@@ -62,6 +69,7 @@
 .ekMalzeme{
     font-family: "Barlow";
     font-weight: 600;
+    width: 30vw;
 }
 
 .maxMalzeme{
@@ -69,12 +77,14 @@
     font-weight: 500;
     color: #5F5F5F;
     margin-bottom: 0;
+    width: 30vw;
 }
 
 .minMalzeme{
     font-family: "Barlow";
     font-weight: 500;
     color: #5F5F5F;
+    width: 30vw;
 }
 
 .malzemeler{
@@ -99,6 +109,7 @@
 .siparisNot{
     font-family: "Barlow";
     font-weight: 600;
+    width: 30vw;
 }
 
 .siparisNotu{
