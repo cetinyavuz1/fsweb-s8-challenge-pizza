@@ -8,7 +8,7 @@ export default function SiparisAlindi({ secimler, fiyat }) {
 
     return (
         <div className="siparisAlindi">
-            <img className="siparisAlindiLogo" src="images/iteration-1-images/logo.svg" alt="" />
+            <img className="siparisAlindiLogo" src="/images/iteration-1-images/logo.svg" alt="" />
             <h6 className="lezzet">lezzetin yolda</h6>
             <h2 className="siparisText" >SİPARİŞ ALINDI</h2>
             <p className="pizzaText" >Position Absolute Acı Pizza</p>
