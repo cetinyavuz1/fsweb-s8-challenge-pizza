@@ -1,481 +1,479 @@
+.anaHeader {
+  width: 100%;
+  height: 100vh;
+  background-image: url('assets/iteration-1/home-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  
-  .anaHeader{
-    width: 100%;
-    height: 100vh;
-    background-image: url('assets/iteration-1/home-banner.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.logo {
+  margin: 50px auto 10px;
+}
+
+.header-yazi {
+  margin: 5px;
+}
+
+
+.firsat {
+  font-family: Satisfy;
+  color: #FDC913;
+  font-size: 30px;
+  margin-bottom: 0px;
+
+}
+
+.header-yazi {
+  font-size: 85px;
+  color: #FAF7F2;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+.aciktimbtn {
+  background-color: #FDC913;
+  border-radius: 40px;
+  border: none;
+  padding: 15px 60px;
+  font-size: 20px;
+  font-family: "Barlow";
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin: 15px auto;
+}
+
+.header-alt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-family: "Barlow";
+  font-weight: 420;
+  font-size: 20px;
+}
+
+.main {
+  background-color: #FAF7F2
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first-card {
+  background-image: url('public/assets/iteration-2/cta/kart-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px 210px 100px 30px;
+  color: #FAF7F2;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 10px;
+}
+
+.firstcard-header {
+  font-size: 70px;
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: "Quattrocento";
+}
+
+.firstcard-p {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.btn-first {
+  background-color: #FAF7F2;
+  border: none;
+  border-radius: 50px;
+  color: #CE2829;
+  font-family: "Barlow";
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin: 0 150px 100px 0;
+}
+
+.btn-second {
+  background-color: #FAF7F2;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: #CE2829;
+  font-family: "Barlow";
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 100px 10px 0;
+
+}
+
+.second-card {
+  background-image: url('public/assets/iteration-2/cta/kart-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 5px 300px 50px 30px;
+  color: #FAF7F2;
+  margin-top: 70px;
+  font-size: 20px;
+  font-family: "Barlow";
+  height: 15rem;
+}
+
+.third-card {
+  background-image: url('public/assets/iteration-2/cta/kart-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 5px 100px 50px 30px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-family: "Barlow";
+  height: 15rem;
+}
+
+.paketlenen {
+  text-align: center;
+  color: #CE2829;
+  font-family: Satisfy;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aciktiran {
+  text-align: center;
+  font-family: "Barlow";
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+
+}
+
+.hizli-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+#pizza {
+  background-color: #292929;
+  color: white;
+}
+
+.pizzalar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 70px;
+}
+
+.pizza-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.puan-fiyat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  background-color: #292929;
+}
+
+.footer-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  border-bottom: 1px solid #5F5F5F;
+  padding: 0;
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px 50px 50px;
+}
+
+.footer-logo {
+  height: 100px;
+
+}
+
+.ilk-satir {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Barlow";
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
+.ikinci-satir {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Barlow";
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.ucuncu-satir {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Barlow";
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.icon-image {
+  height: 30px;
+  margin: 15px 0;
+}
+
+.hot-menu {
+  color: white;
+  font-family: "Barlow";
+  padding: 80px 30px;
+}
+
+.hot-menu-header {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.instagram {
+  width: 400px;
+  padding: 80px;
+
+}
+
+.instagram-header {
+  color: white;
+  font-family: "Barlow";
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.footer-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-second {
+  color: white;
+  font-size: 15px;
+  font-family: "Barlow";
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    min-width: 300px;
+    text-align: center;
   }
-  
+
+
+  .anaHeader {
+    height: 110vh;
+  }
+
+  .header-yazi {
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+    height: 120px;
+    margin: 0.5rem;
+  }
+
+  .firsat {
+    display: none;
+  }
+
   .logo {
-    margin: 50px auto 10px;
+    text-align: center;
   }
-  
-  .header-yazi{
-    margin: 5px;
-  }
-  
-  
-  .firsat{
-    font-family: Satisfy;
-    color: #FDC913;
-    font-size: 30px;
-    margin-bottom: 0px;
-  
-  }
-  
-  .header-yazi{
-    font-size: 85px;
-    color: #FAF7F2;
-    font-family: "Roboto Condensed";
-    font-weight: 300;
-    margin: 0 auto;
-    padding: 0 auto;
-  }
-  
-  
-  .aciktimbtn{
-    background-color:#FDC913 ;
-    border-radius: 40px;
-    border: none;
-    padding: 15px 60px;
-    font-size: 20px;
-    font-family: "Barlow";
-    cursor: pointer;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  
-  .menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    margin: 15px auto;
-  }
-  
-  .header-alt{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-    font-family: "Barlow";
-    font-weight: 420;
-    font-size: 20px;
-    }
-  
-  .main{
-    background-color: #FAF7F2
-  }
-  
-  .cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .first-card{
-    background-image: url('public/assets/iteration-2/cta/kart-1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    padding: 30px 210px 100px 30px;
-    color: #FAF7F2;  
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-right: 10px;
-  }
-  
-  .firstcard-header{
-    font-size: 70px;
-    padding: 0 auto;
-    margin: 0 auto;
-    font-family: "Quattrocento";
-  }
-  
-  .firstcard-p{
-    font-family: "Barlow";
-    font-weight: 500;
-    font-size: 20px;
-    margin-left: 5px;
-  }
-  
-  .btn-first{
-    background-color: #FAF7F2;
-    border: none;
-    border-radius: 50px;
-    color: #CE2829;
-    font-family: "Barlow";
-    font-weight: 600;
-    cursor: pointer;
-    padding: 15px 30px;
-    margin: 0 150px 100px 0;
-  }
-  
-  .btn-second{
-    background-color: #FAF7F2;
-    border: none;
-    border-radius: 50px;
-    padding: 15px 30px;
-    color: #CE2829;
-    font-family: "Barlow";
-    font-weight: 600;
-    cursor: pointer;
-    margin: 10px 100px 10px 0;
 
+  .aciktimbtn {
+    margin-top: 1rem;
   }
-  
-  .second-card{
-    background-image: url('public/assets/iteration-2/cta/kart-2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    padding: 5px 300px 50px 30px;
-    color: #FAF7F2;  
-    margin-top: 70px;
-    font-size: 20px;
-    font-family: "Barlow";
-    height: 15rem;
-  }
-  
-  .third-card{
-    background-image: url('public/assets/iteration-2/cta/kart-3.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    padding: 5px 100px 50px 30px; 
-    margin-top: 20px;
-    margin-bottom: 70px;
-    font-size: 20px;
-    font-family: "Barlow";
-    height: 15rem;
-  }
-  
-  .paketlenen {
-    text-align: center;
-    color: #CE2829;
-    font-family: Satisfy;
-    font-size: 30px;
-    font-weight: 100;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  .aciktiran{
-    text-align: center;
-    font-family: "Barlow";
-    margin-top: 10px;
-    font-size: 40px;
-    font-weight: 600;
-  }
-  
-  .menu2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 40px;
-    
-  }
-  
-  .hizli-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    background-color: white;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-family: "Barlow";
-    font-weight: 500;
-  }
-  
-  #pizza{
-    background-color: #292929;
-    color: white;
-  }
-  
-  .pizzalar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    padding-bottom: 70px;
-  }
-  
-  .pizza-card{
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    font-family: "Barlow";
-    font-size: 20px;
-    font-weight: 500;
-  }
-  
-  .puan-fiyat{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footer-section{
-    background-color: #292929;
-  }
-  
-  .footer-first{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    border-bottom: 1px solid #5F5F5F;
-    padding: 0;
-  }
-  
-  .address-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 50px 50px 50px;
-  }
-  
-  .footer-logo{
-    height: 100px;
-    
-  }
-  
-  .ilk-satir{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-family: "Barlow";
-    gap: 10px;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
-  
-  
-  .ikinci-satir{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-family: "Barlow";
-    gap: 10px;
-    margin-left: 30px;
-  }
-  
-  .ucuncu-satir{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-family: "Barlow";
-    gap: 10px;
-    margin-left: 30px;
-  }
-  
-  .icon-image{
-    height: 30px;
-    margin: 15px 0;
-  }
-  
-  .hot-menu{
-    color: white;
-    font-family: "Barlow";
-    padding: 80px 30px;
-  }
-  
-  .hot-menu-header{
-    font-weight: 400;
-    margin-bottom: 40px;
-  }
-  
-  .instagram{
-    width: 400px;
-    padding: 80px;
-    
-  }
-  
-  .instagram-header{
-    color: white;
-    font-family: "Barlow";
-    font-weight: 400;
-    margin-bottom: 50px;
-  }
-  
-  .footer-images{
+
+  .menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
   }
-  
-  .footer-second {
-    color: white;
-    font-size: 15px;
-    font-family: "Barlow";
-    font-weight: 200;
+
+
+  .cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
   }
 
-  
-  
-  @media (max-width: 768px) {
-    
-    body{
-      min-width: 300px;
-      text-align: center;
-    }
-  
-  
-    .anaHeader{
-      height: 110vh;
-    }
-  
-    .header-yazi{
-      font-size: 50px;
-      width: 200px;
-      text-align: center;
-      height: 120px;
-      margin: 0.5rem;
-    }
-  
-    .firsat{
-      display: none;
-    }
-  
-    .logo{
-      text-align: center;
-    }
-  
-    .aciktimbtn{
-      margin-top: 1rem;
-    }
-  
-    .menu{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-    }
-  
-  
-    .cards{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .first-card{
-      width: 95vw;
-      height: 50vh;
-      margin-bottom: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-left: 7px;
-    }
-  
-    .firstcard-header{
-      font-size: 50px;
-      text-align: left;
-    }
-  
-    .firstcard-p{
-      font-size: 15px;
-      width: 300%;
-      margin: 5px 5px 5px 0;
-      text-align: left;
-    }
-  
-    .btn-first{
-      width: 36vw;
-    }
-  
-    .second-card{
-      margin-top: 10px;
-      width: 95vw;
-      height: 30vh;
-      font-size: 20px;
-    }
-  
-    .secondcard-header{
-      width: 50vw;
-      text-align: left;
-      margin-bottom: 0;
-    }
-  
-    .third-card {
-      width: 95vw;
-      height: 30vh;
-      font-size: 20px;
-      text-align: left;
-    }
-  
-    .thirdcard-header{
-      margin-bottom: 0;
-    }
-  
-    .btn-second{
-      width: 36vw;
-    }
-  
-    .aciktiran{
-      width: 290px;
-      padding-left: 40px;
-    }
-  
-    .menu2{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-  
-    .pizzalar{
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .footer-first{
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .address-section{
-      margin-top: 50px;
-      padding-bottom: 0;
-      text-align: left;
-      padding-left: 0;
-    }
-  
-    .hot-menu{
-      padding-top: 0;
-      padding-bottom: 0;
-      text-align: left;
-    }
-  
-    .instagram{
-      display: flex;
-      flex-wrap: wrap;
-      align-content: flex-start;
-      padding-left: 25px;
-    }
-  
-  
-  
-  
-  
-  
+  .first-card {
+    width: 95vw;
+    height: 50vh;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7px;
   }
+
+  .firstcard-header {
+    font-size: 50px;
+    text-align: left;
+  }
+
+  .firstcard-p {
+    font-size: 15px;
+    width: 300%;
+    margin: 5px 5px 5px 0;
+    text-align: left;
+  }
+
+  .btn-first {
+    width: 36vw;
+  }
+
+  .second-card {
+    margin-top: 10px;
+    width: 95vw;
+    height: 30vh;
+    font-size: 20px;
+  }
+
+  .secondcard-header {
+    width: 50vw;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .third-card {
+    width: 95vw;
+    height: 30vh;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .thirdcard-header {
+    margin-bottom: 0;
+  }
+
+  .btn-second {
+    width: 36vw;
+  }
+
+  .aciktiran {
+    width: 290px;
+    padding-left: 40px;
+  }
+
+  .menu2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .pizzalar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-first {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address-section {
+    margin-top: 50px;
+    padding-bottom: 0;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .hot-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .instagram {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 25px;
+  }
+
+
+
+
+
+
+}
